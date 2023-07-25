@@ -1,0 +1,12 @@
+namespace Basics.Models
+{
+    public class Employee
+    {
+        public int id { get; set; }
+        public string FirstName { get; set; } =String.Empty;
+        public string LastName { get; set; } =String.Empty;
+        public String FullName => $"{FirstName} {LastName.ToUpper()}";
+        public int Age { get; set; }
+
+    }
+}
