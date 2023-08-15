@@ -1115,8 +1115,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\T\\desktop\\mvc\\Store\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\T\\desktop\\mvc\\Store\\Entities\\Entities.csproj"
+            "C:\\Users\\T\\Desktop\\MVC\\Store\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Entities\\Entities.csproj"
             }
           }
         }

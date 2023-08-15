@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xMxWvN6pUzFGqet309mUGE0gYVinrpVWRuB0j5WQEYH8UoMioFvU4wt8leguWtR5JVXoHvw/eoz9AwDhy56rEg==",
+  "dgSpecHash": "fpPHLplUZv9H3d7gm9cyJyPuITWiEalpZevGPU9CvdST8brpJkeaKiRHfOwKJj+TNBEotDHvxJsehYtLeLq9ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\T\\desktop\\mvc\\Store\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
