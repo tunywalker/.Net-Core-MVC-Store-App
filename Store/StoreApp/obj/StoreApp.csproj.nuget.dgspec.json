@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\T\\desktop\\mvc\\Store\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\T\\Desktop\\MVC\\Store\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\T\\desktop\\mvc\\Store\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\T\\Desktop\\MVC\\Store\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\T\\desktop\\mvc\\Store\\Repositories\\Repositories.csproj",
+        "projectPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\T\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\T\\desktop\\mvc\\Store\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\T\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\T\\desktop\\mvc\\Store\\Services\\Services.csproj": {
+    "C:\\Users\\T\\Desktop\\MVC\\Store\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\T\\desktop\\mvc\\Store\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\T\\Desktop\\MVC\\Store\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\T\\desktop\\mvc\\Store\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\T\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\T\\desktop\\mvc\\Store\\Services\\obj\\",
+        "outputPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\T\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -153,8 +153,8 @@
               "C:\\Users\\T\\Desktop\\MVC\\Store\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\T\\desktop\\mvc\\Store\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\T\\desktop\\mvc\\Store\\Repositories\\Repositories.csproj"
+              "C:\\Users\\T\\Desktop\\MVC\\Store\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -220,11 +220,11 @@
               "C:\\Users\\T\\Desktop\\MVC\\Store\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\T\\desktop\\mvc\\Store\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\T\\desktop\\mvc\\Store\\Repositories\\Repositories.csproj"
+              "C:\\Users\\T\\Desktop\\MVC\\Store\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Repositories\\Repositories.csproj"
               },
-              "C:\\Users\\T\\desktop\\mvc\\Store\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\T\\desktop\\mvc\\Store\\Services\\Services.csproj"
+              "C:\\Users\\T\\Desktop\\MVC\\Store\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\T\\Desktop\\MVC\\Store\\Services\\Services.csproj"
               }
             }
           }
