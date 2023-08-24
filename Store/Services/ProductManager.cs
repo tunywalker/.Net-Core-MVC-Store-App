@@ -68,7 +68,12 @@ namespace Services
             }
         }
 
-        
+        public IQueryable<Product> GetShowcaseProducts(bool trackChanges)
+        {
+           var products= _manager.Product.GetShowcaseProducts(trackChanges);
+           return products;
+           
+        }
     }
 
 

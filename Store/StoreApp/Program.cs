@@ -9,7 +9,7 @@ builder.Services.ConfigureDbContext(builder.Configuration);
 builder.Services.ConfigureSession();
 builder.Services.ConfigureRepositoryRegistiration();
 builder.Services.ConfigureServiceRegistiration();
-
+builder.Services.ConfigureRouting();
 
 builder.Services.AddAutoMapper(typeof(Program));
 var app = builder.Build();
@@ -18,6 +18,7 @@ app.UseStaticFiles();
 app.UseSession();
 app.UseHttpsRedirection();
 app.UseRouting();
+app.ConfigureLocalization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapAreaControllerRoute(

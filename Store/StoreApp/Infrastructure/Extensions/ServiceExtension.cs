@@ -54,6 +54,14 @@ b => b.MigrationsAssembly("StoreApp")
             services.AddScoped<IOrderService, OrderManager>();
             services.AddScoped<IProductService, ProductManager>();
         }
+
+        public static void ConfigureRouting(this IServiceCollection services)
+        {
+            services.AddRouting(options =>{
+                options.LowercaseUrls=true;
+                options.AppendTrailingSlash=true;
+            });
+        }
     }
 
 }
