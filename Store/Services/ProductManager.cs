@@ -1,6 +1,7 @@
 using AutoMapper;
 using Entities.Dtos;
 using Entities.Models;
+using Entities.RequestParameters;
 using Repositories.Contracts;
 using Services.Contracts;
 
@@ -73,6 +74,20 @@ namespace Services
            var products= _manager.Product.GetShowcaseProducts(trackChanges);
            return products;
            
+        }
+
+        public IQueryable<Product> GetAllProductWithDetails(ProductRequestParameters p)
+        {
+            return _manager.Product.GetAllProductWithDetails(p);
+        }
+
+        public IEnumerable<Product> GetLastestProducts(int n, bool trackChanges)
+        {
+            return _manager
+            .Product
+            .FindAll(trackChanges)
+            .OrderByDescending(prd=> prd.ProductId)
+            .Take(n);
         }
     }
 

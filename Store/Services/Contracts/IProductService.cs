@@ -1,10 +1,16 @@
 using Entities.Dtos;
 using Entities.Models;
+using Entities.RequestParameters;
+
 namespace Services.Contracts
 {
     public interface IProductService
     {
         IEnumerable<Product> GetAllProducts(bool trackChanges);
+        IEnumerable<Product> GetLastestProducts(int n,bool trackChanges);
+
+        IQueryable<Product> GetAllProductWithDetails(ProductRequestParameters p);
+
         IQueryable<Product> GetShowcaseProducts(bool trackChanges);
 
         Product? GetOneProduct(int id, bool trackChanges);
