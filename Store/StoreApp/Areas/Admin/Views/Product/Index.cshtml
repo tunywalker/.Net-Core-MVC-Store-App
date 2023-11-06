@@ -1,6 +1,6 @@
 @model IEnumerable<Product>
 <div class="text-center">
-    <div class="display-6">Products</div>
+    <div class="display-6">Productsa</div>
     <div class="d-flex justify-content-end my-3">
         <a class="btn btn-outline-success" asp-controller="Product" asp-action="Create">
             <i class="fa fa-plus"></i>
@@ -21,31 +21,53 @@
             @foreach (var prd in Model)
             {
                 <tr>
-                 <td>@prd.ProductId</td>
-                 <td>@prd.ProductName</td>
-                 <td>@prd.Price.ToString("C")</td>
-                 <td><img class="border  border-light rounded shadow" width="100" src="@prd.ImageUrl"/></td>
-                 <td>@(prd.CategoryId)</td>
-              
-                 <td>
-                    <div class="btn-group">
-                        <a class="btn btn-warning" asp-action="Update" asp-route-id="@prd.ProductId">
-                            <i class="fa fa-edit"></i>
-                            Edit
+                    <td>@prd.ProductId</td>
+                    <td>@prd.ProductName</td>
+                    <td>@prd.Price.ToString("C")</td>
+                    <td><img class="border  border-light rounded shadow" width="100" src="@prd.ImageUrl" /></td>
+                    <td>@(prd.CategoryId)</td>
+
+                    <td>
+                        <div class="btn-group">
+                            <a 
+                            data-toggle="tooltip" 
+                            data-placement="top"
+                            title="Edit"
+                            class="btn btn-warning" asp-action="Update"
+                                asp-route-id="@prd.ProductId">
+                                <i class="fa fa-edit"></i>
+                                
                             </a>
-                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@prd.ProductId">
-                            <i class="fa fa-trash"></i>
-                            Delete
+                            <a 
+                            data-toggle="tooltip" 
+                            data-placement="top"
+                            title="Delete"
+                            class="btn btn-danger" asp-action="Delete" asp-route-id="@prd.ProductId">
+                                <i class="fa fa-trash"></i>
+                                
                             </a>
-                        <a class="btn btn-info" target="_blank" asp-area="" asp-controller="Product"  asp-action="Get" asp-route-id="@prd.ProductId">
-                            <i class="fa fa-search"></i>
-                            Preview
+                            <a 
+                            data-toggle="tooltip" 
+                            data-placement="top"
+                            title="Preview"
+                            class="btn btn-info" target="_blank" asp-area="" asp-controller="Product" asp-action="Get"
+                                asp-route-id="@prd.ProductId">
+                                <i class="fa fa-search"></i>
+                                
                             </a>
-                    </div>
-                 </td>
+                        </div>
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
 
 </div>
+@section Scripts
+{
+      <script type="text/javascript">
+        $(document).ready(() => {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
+}
